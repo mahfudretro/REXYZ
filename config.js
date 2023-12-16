@@ -1,17 +1,17 @@
-global.owner = ['6281395861695']  
-global.mods = ['6281395861695'] 
-global.prems = ['6281395861695']
-global.nameowner = 'Tio'
+global.owner = ['6282328530382']  
+global.mods = ['6282328530383'] 
+global.prems = ['6282328530383']
+global.nameowner = 'MR Perkoro'
 global.numberowner = '6281395861695' 
-global.mail = 'support@tioprm.my.id' 
+global.mail = 'machfudem@gmail.com' 
 global.gc = 'https://chat.whatsapp.com/Ln2vHjRrRayAbzalRMB56r'
-global.instagram = 'https://instagram.com/prm2.0'
-global.wm = '© Tio'
+global.instagram = 'https://www.instagram.com/perkorodunyo_/'
+global.wm = '© REXYZ'
 global.wait = '_*Tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made With'
-global.author = 'Bot WhatsApp'
+global.author = 'REXYZ_42'
 global.maxwarn = '2' // Peringatan maksimum
 
 //INI WAJIB DI ISI!//
