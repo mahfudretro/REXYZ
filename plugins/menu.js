@@ -15,23 +15,15 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'main': 'MENU UTAMA',
   'downloader': 'MENU DOWNLOADER',
   'sticker': 'MENU CONVERT',
-  'advanced': 'ADVANCED',
-  'xp': 'MENU EXP',
   'fun': 'MENU FUN',
   'game': 'MENU GAME',
-  'github': 'MENU GITHUB',
   'group': 'MENU GROUP',
   'image': 'MENU IMAGE',
-  'nsfw': 'MENU NSFW',
   'info': 'MENU INFO',
   'internet': 'INTERNET',
-  'islam' : 'MENU ISLAMI',
   'kerang': 'MENU KERANG',
-  'maker': 'MENU MAKER',
-  'owner': 'MENU OWNER',
   'Pengubah Suara': 'PENGUBAH SUARA',
   'quotes' : 'MENU QUOTES',
   'stalk': 'MENU STALK',
@@ -42,8 +34,8 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hi %name
-I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.
+Hallo %name
+Selamat Datang di menu BOT WA by Perkorodunyo_.
 
  ◦  *Library:* Baileys
  ◦  *Function:* Assistant
@@ -165,8 +157,8 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
                         mediaType: 1,
                         previewType: 0,
                         renderLargerThumbnail: true,
-                        thumbnailUrl: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg',
-                        sourceUrl: 'https://whatsapp.com/channel/0029Va8ZH8fFXUuc69TGVw1q'
+                        thumbnailUrl: 'https://cdn.idntimes.com/content-images/duniaku/post/20220919/tnjiro-5644620324dc230e5f51b255206efbc9.png',
+                        sourceUrl: 'https://www.instagram.com/perkorodunyo_/'
                     }
                 }, mentions: [m.sender]
 }}, {})
